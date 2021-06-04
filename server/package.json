@@ -1,0 +1,44 @@
+{
+  "name": "remberg",
+  "version": "1.0.0",
+  "description": "remberg BE Application",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon --inspect=0.0.0.0:9229 ./bin/dev",
+    "test": "jest --forceExit"
+  },
+  "author": "Nitin V",
+  "license": "",
+  "engines": {
+    "node": "12.13.1"
+  },
+  "dependencies": {
+    "await-of": "1.2.0",
+    "boom": "^7.2.2",
+    "convict": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.2",
+    "express-boom": "^2.0.0",
+    "lodash": "4.17.19",
+    "moment": "2.24.0",
+    "moment-timezone": "^0.5.31",
+    "mongoose": "^5.12.12",
+    "node-fetch": "^2.6.0",
+    "pg": "7.14.0",
+    "pg-hstore": "2.3.3",
+    "raven": "2.6.4",
+    "reflect-metadata": "^0.1.13",
+    "request-promise": "^4.2.6",
+    "winston": "3.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.7.4",
+    "@babel/core": "7.7.4",
+    "@babel/node": "7.7.4",
+    "@babel/preset-env": "7.7.4",
+    "jest": "^26.1.0",
+    "nodemon": "2.0.4",
+    "supertest": "^4.0.2"
+  }
+}
